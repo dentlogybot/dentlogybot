@@ -1,43 +1,17 @@
-<?php
-
-if (isset($_GET['file'])) {
-    $file = $_GET['file'];
-    if (is_protected($file)) {
-        deny_access();
-    }
-}
-if (isset($_GET['file']) && basename($_GET['file']) == $_GET['file']) {
-    die('لا يسمح بالسحب من هذا الموقع!');
-}
-?>
 <script data-ad-client="ca-pub-3782750975369789" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
- </div>
-<?php
-if (isset($_POST['submit'])){
-$pwd=$_POST["password"];
-$pas="2232";
-if($pwd==$pas){echo "<script>window.open('menu.php','_self');</script>";
-}else
-echo '<p style="text-align:center;color:red;background:rgba(50,50,50,.5);border-radius:15px;width:190px;margin:0 auto;border:1px dashed #FFFFFF">عفو فشل التحقق</p>';
-} 
-
-?>
-
-   </div>
-<link rel="preconnect" href="https://fonts.gstatic.com"> 
+</div>
+</div>
+<link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Changa:wght@300&display=swap" rel="stylesheet">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
 <html>
 <head>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3782750975369789"
-     crossorigin="anonymous"></script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3782750975369789" crossorigin="anonymous"></script>
 <center>
-
 <title> Tupac programm</title>
 <p></p>
-    <h1>مرحبا بك عزيزي</h1>
+<h1>مرحبا بك عزيزي</h1>
 <p></p>
 <body background="https://z63k.tk/p.jpg">
 <br>
@@ -46,26 +20,15 @@ echo '<p style="text-align:center;color:red;background:rgba(50,50,50,.5);border-
 </head>
 <body>
 <p></p>
-    <form action="" method="post">
-    <p></p>
-        <input type="text" name="search" placeholder="اكتب">
-        <p></p>
-      
-        <input type="submit" value="بحث">
-    </form>
+<form action="" method="post">
+<p></p>
+<input type="text" name="search" placeholder="اكتب">
+<p></p>
+<input type="submit" value="بحث">
+</form>
 </body>
 </html>
-
-<?php
-if(isset($_POST['search'])){
-$AMRAKLPPPO = "key"; #key
-    $search = $_POST['search'];
-    $data = file_get_contents("https://api.dlyar-dev.tk/open-ai.json?key=$AMRAKLPPPO&text=".$search);
-    echo json_decode($data,1)["choices"][0]["text"];
-}
-?>
-                           
-            <script data-ad-client="ca-pub-3782750975369789" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script data-ad-client="ca-pub-3782750975369789" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 </div>
 </body>
 </form>
@@ -192,5 +155,3 @@ border-bottom:2px solid #136A8A;
 
 
 } 
-
-
